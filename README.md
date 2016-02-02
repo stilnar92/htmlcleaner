@@ -48,6 +48,7 @@ pip install -r requirements.txt
 <li>Установить значение TEXT в True.</li>
 <li>Добавлять теги в tags_settings.</li>
 </ul>
+<p>Настройки по умолчанию</p>
 <pre>
 # Режим поиска True - Искать текст. False - искать теги
 
