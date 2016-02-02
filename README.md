@@ -5,7 +5,12 @@
 <h2>Установка</h2>
 
 <pre>
-<code>git clone https://github.com/stilnar92/htmlcleaner.git
+<code>
+git clone https://github.com/stilnar92/htmlcleaner.git
+pip install virtualenvwrapper
+export WORKON_HOME=~/Envs
+mkdir -p $WORKON_HOME
+source /usr/local/bin/virtualenvwrapper.sh
 mkvirtualenv htmlcleaner
 pip install -r requirements.txt
 </code>
@@ -38,7 +43,7 @@ pip install -r requirements.txt
 <li>Записываем в список. </li>
 <li>Выполняем выше описанные действия до тех пор пока не найдем блочный элемент который  не содержит блочных элементов. </li>
 <li>Берем последний элемент в списке. Находим количество тегов. Запомним это значение как минимальное количество тегов.</li>
-<li>Проходим по списку с конца считая количество тегов в каждом элементе. Выбираем тот который удовлетворяет условию: <ul><li>Количество тегов в элементе меньше минимального количества тегов + EPS.</li></ul>EPS - погрешность.</li>
+<li>Проходим по списку с конца считая количество тегов в каждом элементе списка. Выбираем тот который удовлетворяет условию: <ul><li>Количество тегов в элементе списка меньше минимального количества тегов + EPS.</li></ul>EPS - погрешность.</li>
 </ul>
 
 <h2>settings.py</h2>
