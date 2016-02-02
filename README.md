@@ -5,28 +5,31 @@
 
 <pre>
 <code>git clone https://github.com/stilnar92/htmlcleaner.git
-virtualenv /path/to/envs/directory
 pip install -r requirements.txt
 </code>
 </pre>
 
-<h2><a id="user-content-Запуск" class="anchor" href="#Запуск" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Запуск</h2>
+<h2>Запуск</h2>
 
-<pre><code>python main.py &lt;url&gt;
+<pre><code>python htmlcleaner.py &lt;url&gt;
 </code></pre>
 
-<p>Результат в каталоге results. Тестовые запуски проводились на следующих адресах:</p>
+<p>Тестовые запуски проводились на следующих адресах:</p>
 
-<pre><code>python main.py http://66.ru/news/internet/172721/
-python main.py http://www.f1news.ru/news/f1-103942.html
-python main.py http://lenta.ru/news/2015/06/01/ukraune/
+<pre><code>
+    https://medium.com/life-tips/multitasking-is-killing-your-brain-79104e62e930#.cctxppb58
+    http://www.bbc.com/russian/blogs/2016/01/160127_blog_strana_russia_border_control
+    http://lenta.ru/news/2016/02/02/alphabet/
+    http://www.machinalis.com/blog/full-text-search-on-django-with-database-back-ends/
+    http://ufa.rbc.ru/ufa/freenews/56af038d9a79472cf43b7b0a?from=main
+    http://pythondigest.ru/issue/110/
 </code></pre>
 
 <h2><a id="user-content-Задание" class="anchor" href="#Задание" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Задание</h2>
 
 <p>«Вытащить» из веб-страницы только полезную информацию, отбросив весь «мусор» (навигацию, рекламу и тд).</p>
 
-<h2><a id="user-content-Концепция-решения" class="anchor" href="#Концепция-решения" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Концепция решения</h2>
+<h2>Алгоритм</h2>
 
 <p>Т.е. условия выполнения задания запрещают использование синтаксических анализаторов, решено было разбирать html 
 и по косвенным признакам понять, какой контент важен, а какой - нет
