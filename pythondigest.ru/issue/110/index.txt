@@ -1,0 +1,892 @@
+ВЫПУСК 110 
+            (25.01.2016 - 31.01.2016)
+
+
+[http://pythondigest.ru/rss/]RSS
+[https://twitter.com/pydigest]Twitter
+[https://gitter.im/pythondigest/pythondigest]Gitter
+НАШИ ДРУЗЬЯ
+
+
+[http://python.su]
+
+
+
+
+[http://python.su]
+
+
+
+[http://pythonworld.ru]
+
+
+
+
+[http://pythonworld.ru]
+
+
+
+[http://djbook.ru]
+
+
+
+
+[http://djbook.ru]
+
+
+
+[http://pep8.ru]
+
+
+
+
+[http://pep8.ru]
+
+
+
+[http://vk.com/python_programing]
+
+
+
+
+[http://vk.com/python_programing]
+
+
+
+[http://vk.com/pynsk]
+
+
+
+
+[http://vk.com/pynsk]
+
+
+
+[https://vk.com/vk_python]
+
+
+
+
+[https://vk.com/vk_python]
+
+
+НОВОСТИ
+
+[https://mail.python.org/pipermail/python-dev/2016-January/142945.html]
+            Патч может ускорить CPython на 5-10% 
+        
+
+По ссылке вы найдете письмо из рассылки, который описывает способ ускорения Python на 5-10%.
+
+
+[https://www.python.org/dev/peps/pep-0513/]
+            PEP 0513 -- стандартизация сборки python-пакетов для linux дистрибутивов
+        
+
+[http://www.pythonweekly.com/]
+                PythonWeekly
+            
+Этот PEP предполагает добавление тега и стандарта для сборки пакетов для Linux. Смысл в том, что разные дистрибутивы, да и даже разные машины с одним дистрибутивом могут быть несовестимы полностью.
+
+
+
+
+Этот PEP предполагает добавление тега и стандарта для сборки пакетов для Linux. Смысл в том, что разные дистрибутивы, да и даже разные машины с одним дистрибутивом могут быть несовестимы полностью.
+
+
+[http://pyfound.blogspot.ca/2016/01/welcome-to-warehouse.html]
+            warehouse.python.org - обновленный PyPi
+        
+
+Спустя много лет после запуска PyPi Python Software Foundation решили обновить сайт PyPi (на нем хранятся Python модули). 
+Цели изменения - упростить жизнь разработчикам и пользователям, улучшить дизайн (упростить читаемость сайта). 
+Новый сайт пока еще в состоянии разработки, но уже известно, что дизайном разработчики не ограничатся - будет написана инструкция для пользователей.
+
+
+СТАТЬИ
+
+[http://nedbatchelder.com//blog/201601/python_testing_book_and_podcast.html]
+            Учебные материалы для Python тестирования - книга и подкаст
+        
+
+[http://nedbatchelder.com/]Нед Батчелдер рассказывает об интересных учебных материалов для тестирования на Python за эту неделю
+
+
+
+
+[http://nedbatchelder.com/]Нед Батчелдер рассказывает об интересных учебных материалов для тестирования на Python за эту неделю
+
+
+[http://nedbatchelder.com/]Нед 
+[http://nuitka.net/posts/nuitka-progress-winter-2015.html]
+            Python компилятор Nuitka, прогресс за 2015 
+        
+
+[http://reddit.com/r/Python/]
+                Reddit - канал о python
+            
+
+Статья описывает прогресс в развитии Nuitka за 2015 год. Описаны и планы на будущее, среди самого интересного - план реализовать вывод типов.
+
+
+
+
+Статья описывает прогресс в развитии Nuitka за 2015 год. Описаны и планы на будущее, среди самого интересного - план реализовать вывод типов.
+
+
+[https://habrahabr.ru/post/276151/]
+            How-to: Объектно-ориентированная система бэктестинга на Python
+        
+
+[http://habrahabr.ru]
+                Хабрахабр
+            
+Известный британский трейдер и разработчик Майк Халлс-Мур [https://www.quantstart.com/articles/Research-Backtesting-Environments-in-Python-with-pandas]написал в своем блоге статью о том, как создать объектно-ориентированную систему бэктестинга финансовых стратегий торговли на бирже. Мы представляем вашему вниманию главные мысли этого материала.
+
+
+
+
+Известный британский трейдер и разработчик Майк Халлс-Мур [https://www.quantstart.com/articles/Research-Backtesting-Environments-in-Python-with-pandas]написал в своем блоге статью о том, как создать объектно-ориентированную систему бэктестинга финансовых стратегий торговли на бирже. Мы представляем вашему вниманию главные мысли этого материала.
+
+
+[https://www.quantstart.com/articles/Research-Backtesting-Environments-in-Python-with-pandas]написал
+
+[https://habrahabr.ru/post/276093/]
+            TensorFlow и логистическая регрессия
+        
+
+[http://habrahabr.ru]
+                Хабрахабр
+            
+После непродолжительной, но весьма кровавой войны мне все-таки удалось откомпилировать и собрать TensorFlow для GPU с CUDA capability=3.0. Теперь можно погрузиться в него основательно, потому что машинное обучение с GPU — это быстро, легко и приятно, а без GPU — порой лишь огромная потеря времени. Попробуем запрограммировать самую простейшую логистическую регрессию. 
+
+
+
+
+После непродолжительной, но весьма кровавой войны мне все-таки удалось откомпилировать и собрать TensorFlow для GPU с CUDA capability=3.0. Теперь можно погрузиться в него основательно, потому что машинное обучение с GPU — это быстро, легко и приятно, а без GPU — порой лишь огромная потеря времени. Попробуем запрограммировать самую простейшую логистическую регрессию. 
+
+
+[http://emptysqua.re/blog/scale14x-coroutines-talk/]
+            Как работают Python сопрограммы(Coroutines)? 
+        
+
+[http://www.pythonweekly.com/]
+                PythonWeekly
+            
+[http://www.andreykurenkov.com/writing/organizing-my-emails-with-a-neural-net/]
+            Организуем порядок в Email'ах с помощью нейронных сетей
+        
+
+[http://www.pythonweekly.com/]
+                PythonWeekly
+            
+[http://erikbern.com/2016/01/21/analyzing-50k-fonts-using-deep-neural-networks/]
+            Анализ 50к шрифтов используя deep neural networks
+        
+
+[http://www.pythonweekly.com/]
+                PythonWeekly
+            
+[http://blog.cambridgecoding.com/2016/01/25/implementing-your-own-spam-filter/]
+            Реализуем свой спам-фильтр
+        
+
+[http://www.pythonweekly.com/]
+                PythonWeekly
+            
+Статья описывает создание спам фильтра в 100 строк на Python
+
+
+
+Статья описывает создание спам фильтра в 100 строк на Python
+
+[http://pbpython.com/weighted-average.html]
+            Про построение и использование функции "среднее с учетом веса"
+        
+
+[http://www.pythonweekly.com/]
+                PythonWeekly
+            
+Статья вводная, описывает ситуации, когда необходимо считать среднюю с учетом веса. Рассказно как использовать ее в Pandas
+
+
+
+
+Статья вводная, описывает ситуации, когда необходимо считать среднюю с учетом веса. Рассказно как использовать ее в Pandas
+
+
+[http://pythontips.com/2016/01/28/implementing-email-sending-functionality-in-a-django-app/]
+            Реализуем отправку email в Django приложении
+        
+
+[http://roscidus.com/blog/blog/2014/06/06/python-to-ocaml-retrospective/]
+            От Python к OCaml: ретроспектива 
+        
+
+[http://reddit.com/r/Python/]
+                Reddit - канал о python
+            
+
+Автор рассказывает о своем путе перехода с языка Python на OCaml
+
+
+
+Автор рассказывает о своем путе перехода с языка Python на OCaml
+
+[https://www.distelli.com/blog/using-lua-for-our-most-critical-production-code]
+            От Python к Lua: почему мы сменили?
+        
+
+[http://reddit.com/r/Python/]
+                Reddit - канал о python
+            
+
+Проект www.distelli.com рассказывает об смене языка Python на Lua.
+
+
+
+Проект www.distelli.com рассказывает об смене языка Python на Lua.
+
+[https://habrahabr.ru/post/275963/]
+            Python и красивые ножки — как бы я знакомил сына с математикой и программированием
+        
+
+[http://habrahabr.ru]
+                Хабрахабр
+            
+Раньше мы уже искали необычные модели Playboy с помощью библиотеки Python Scikit-learn. Теперь мы продемонстрируем некоторые возможности библиотек SymPy, SciPy, Matplotlib и Pandas на живом примере из разряда занимательных школьных задач по математике. Цель — облегчить порог вхождения при изучении Python библиотек для анализа данных. 
+
+
+
+
+Раньше мы уже искали необычные модели Playboy с помощью библиотеки Python Scikit-learn. Теперь мы продемонстрируем некоторые возможности библиотек SymPy, SciPy, Matplotlib и Pandas на живом примере из разряда занимательных школьных задач по математике. Цель — облегчить порог вхождения при изучении Python библиотек для анализа данных. 
+
+
+[http://python-3.ru/page/kak-importirovat-modul-v-python]
+            Как импортировать модуль в Python
+        
+
+Любой модуль Python - это вещь в себе, и ни один другой модуль не сможет использовать объявленную в нем сущность, пока не выполнит операцию импорта. 
+
+
+
+
+Любой модуль Python - это вещь в себе, и ни один другой модуль не сможет использовать объявленную в нем сущность, пока не выполнит операцию импорта. 
+
+
+[https://habrahabr.ru/post/275913/]
+            Пирожки в дистрибутивной семантике
+        
+
+[http://habrahabr.ru]
+                Хабрахабр
+            
+Уже несколько месяцев с любопытством гляжу в сторону [https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0]дистрибутивной семантики — познакомился с теорией, узнал про [https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0]word2vec, нашёл соответствующую библиотеку для Питона (gensim) и даже раздобыл [https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0]модель лексических векторов, сформированную по национальному корпусу русского языка. Однако для творческого погружения в материал не хватало душезабирающих данных, которые было бы интересно через дистрибутивную семантику покрутить. Одновременно с этим увлечённо почитывал [https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0]стишки-пирожки(эдакий синтез задиристых частушек и глубокомысленных хокку) — некоторые даже заучивал наизусть и по случаю угощал знакомых. И вот, наконец, увлечённость и любопытство нашли друг друга, породив воодушевляющую идею в ассоциативных глубинах сознания — отчего бы не совместить приятное с полезным и не собрать из подручных средств какой-нибудь «поэтичный» поисковик по базе пирожков.
+
+
+
+
+Уже несколько месяцев с любопытством гляжу в сторону [https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0]дистрибутивной семантики — познакомился с теорией, узнал про [https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0]word2vec, нашёл соответствующую библиотеку для Питона (gensim) и даже раздобыл [https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0]модель лексических векторов, сформированную по национальному корпусу русского языка. Однако для творческого погружения в материал не хватало душезабирающих данных, которые было бы интересно через дистрибутивную семантику покрутить. Одновременно с этим увлечённо почитывал [https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0]стишки-пирожки(эдакий синтез задиристых частушек и глубокомысленных хокку) — некоторые даже заучивал наизусть и по случаю угощал знакомых. И вот, наконец, увлечённость и любопытство нашли друг друга, породив воодушевляющую идею в ассоциативных глубинах сознания — отчего бы не совместить приятное с полезным и не собрать из подручных средств какой-нибудь «поэтичный» поисковик по базе пирожков.
+
+
+[https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%B0]дистрибутивной семантики
+
+[https://code.google.com/archive/p/word2vec/]word2vec
+[http://ling.go.mail.ru/dsm/ru/about#models]модель
+[http://poetory.ru/content/list?sort=likes&amp;type=2]стишки-пирожки
+[http://www.pyimagesearch.com/2016/01/25/real-time-panorama-and-image-stitching-with-opencv/]
+            Real-time панорамы и сшивание изображение с помощью OpenCV
+        
+
+&lt;a href="http://www.pyimagesearch.com/wp-content/uploads/2016/01/realtime_panorama_stitching_animation.gif"&gt;&lt;img class="aligncenter size-full wp-image-3594" src="http://www.pyimagesearch.com/wp-content/uploads/2016/01/realtime_panorama_stitching_animation.gif" alt="realtime_panorama_stitching_animation" width="500" height="313"&gt;&lt;/a&gt;
+
+
+
+
+&lt;a href="http://www.pyimagesearch.com/wp-content/uploads/2016/01/realtime_panorama_stitching_animation.gif"&gt;&lt;img class="aligncenter size-full wp-image-3594" src="http://www.pyimagesearch.com/wp-content/uploads/2016/01/realtime_panorama_stitching_animation.gif" alt="realtime_panorama_stitching_animation" width="500" height="313"&gt;&lt;/a&gt;
+
+
+[https://doughellmann.com/blog/2016/01/25/atexit-program-shutdown-callbacks-pymotw-3/]
+            atexit - PyMOTW 3 - запускаем функцию после завершения программы
+        
+
+Модуль atexit предоставляет интерфейс регистрации функции для запуска кода после завершения программы.
+
+
+
+
+Модуль atexit предоставляет интерфейс регистрации функции для запуска кода после завершения программы.
+
+
+ВИДЕО
+
+[https://www.youtube.com/watch?v=AsW0QzbYVow]
+            Natural Language Processing с PySpark
+        
+
+[http://www.pythonweekly.com/]
+                PythonWeekly
+            
+Готовый выйти за рамки Word Count? Джон Хог совершит вместе с вами прогулку и расскажет на практическом примере обработки данных работу с PySpark и ML.  Научитесь использовать библиотеки Python из Spark, такие как NLTK
+
+
+
+
+Готовый выйти за рамки Word Count? Джон Хог совершит вместе с вами прогулку и расскажет на практическом примере обработки данных работу с PySpark и ML.  Научитесь использовать библиотеки Python из Spark, такие как NLTK
+
+
+УЧЕБНЫЕ МАТЕРИАЛЫ
+
+[http://github.com/mjhea0/flaskr-tdd]
+            Flaskr: Введение в Flask, Test Driven Development (TDD), и jQuery 
+        
+
+[http://www.intuit.ru/studies/courses/3586/828/info]
+            Введение в Django
+        
+
+В курсе изучается фреймворк Django, его основные возможности и некоторые прикладные задачи его использования в современной веб разработке.
+
+
+
+
+В курсе изучается фреймворк Django, его основные возможности и некоторые прикладные задачи его использования в современной веб разработке.
+
+
+ИНТЕРЕСНЫЕ ПРОЕКТЫ, ИНСТРУМЕНТЫ, БИБЛИОТЕКИ
+
+[https://github.com/Microsoft/Pyjion]
+            Pyjion – JIT для Python на основе CoreCLR (от Microsoft)
+        
+
+[http://reddit.com/r/Python/]
+                Reddit - канал о python
+            
+
+[http://github.com/jeremybmerrill/flyover]
+            flyover - "какой самолет летит прямо сейчас надомной?"
+        
+
+Модуль позволяет получить информацию о самолетах с привязкой к координатам
+
+
+
+Модуль позволяет получить информацию о самолетах с привязкой к координатам
+
+[http://pypi.python.org/pypi/jinja-vanish/]
+            jinja-vanish - кастомизация функции escape для jinja2
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+[http://pypi.python.org/pypi/django-multiurl/]
+            django-multiurl - назначаем один URL на разные Django view
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+urlpatterns = [
+    multiurl(
+        url('/app/(\w+)/$', app.views.people),
+        url('/app/(\w+)/$', app.views.place),
+        catch = (Http404, ContinueResolving)
+    )
+]
+
+
+
+urlpatterns = [
+    multiurl(
+        url('/app/(\w+)/$', app.views.people),
+        url('/app/(\w+)/$', app.views.place),
+        catch = (Http404, ContinueResolving)
+    )
+]
+
+
+[http://github.com/reubano/meza]
+            meza - Python toolkit для обработки табличных данных
+        
+
+[http://pypi.python.org/pypi/django-telegram-bot/]
+            django-telegram-bot - Django приложение для написания Telegram bot'ов
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+Позволяет реализовывать только команды, а приложение само будет перехватывать запросы.
+
+
+
+
+Позволяет реализовывать только команды, а приложение само будет перехватывать запросы.
+
+
+[http://github.com/gurgeh/selfspy]
+            selfspy - утилита для сборки логов со всего компьютера
+        
+
+Утилита может выступать в роли демона, который собирает активность на всем компьютере. Есть возможность отправлять логи по email
+
+
+
+
+Утилита может выступать в роли демона, который собирает активность на всем компьютере. Есть возможность отправлять логи по email
+
+
+[http://pypi.python.org/pypi/socialauth/]
+            socialauth - фреймворк для авторизации в соц.сетях. (поддерживает Twitter, Facebook)
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+Использует JSON веб токены вместо сессий.
+
+Сейчас есть поддержка Twitter, Facebook
+
+
+
+
+Использует JSON веб токены вместо сессий.
+
+Сейчас есть поддержка Twitter, Facebook
+
+[http://pypi.python.org/pypi/Pandora/]
+            Pandora - набор утилит/снипетов для ускорения разработки
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+[http://github.com/ncrocfer/whatportis]
+            whatportis - утилита, определяем на каком порту висит сервер
+        
+
+$ whatportis redis
++-------+------+----------+---------------------------------------+
+| Name  | Port | Protocol | Description                           |
++-------+------+----------+---------------------------------------+
+| redis | 6379 |   tcp    | An advanced key-value cache and store |
++-------+------+----------+---------------------------------------+
+
+
+$ whatportis redis
++-------+------+----------+---------------------------------------+
+| Name  | Port | Protocol | Description                           |
++-------+------+----------+---------------------------------------+
+| redis | 6379 |   tcp    | An advanced key-value cache and store |
++-------+------+----------+---------------------------------------+
+
+[https://github.com/kragniz/json-sempai/tree/master]
+            json-sempai - доступ к json-файлам как к python модулям
+        
+
+[http://reddit.com/r/Python/]
+                Reddit - канал о python
+            
+
+{
+    "hello": "world",
+    "this": {
+        "can": {
+            "be": "nested"
+        }
+    }
+}
+&gt;&gt;&gt; from jsonsempai import magic
+&gt;&gt;&gt; import tester
+&gt;&gt;&gt; tester
+&lt;module 'tester' from 'tester.json'&gt;
+&gt;&gt;&gt; tester.hello
+u'world'
+&gt;&gt;&gt; tester.this.can.be
+u'nested'
+&gt;&gt;&gt;
+
+
+{
+    "hello": "world",
+    "this": {
+        "can": {
+            "be": "nested"
+        }
+    }
+}
+
+&gt;&gt;&gt; from jsonsempai import magic
+&gt;&gt;&gt; import tester
+&gt;&gt;&gt; tester
+&lt;module 'tester' from 'tester.json'&gt;
+&gt;&gt;&gt; tester.hello
+u'world'
+&gt;&gt;&gt; tester.this.can.be
+u'nested'
+&gt;&gt;&gt;
+
+[http://pypi.python.org/pypi/pytest_browserstack/]
+            pytest_browserstack - Py.test плагин для BrowserStack
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+BrowserStack - система тестирования web-приложений 
+
+
+
+BrowserStack - система тестирования web-приложений 
+
+[http://pypi.python.org/pypi/parthial/]
+            parthial - встраиваемый в Python интерпретатор Lisp'а
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+[http://pypi.python.org/pypi/cloudbridge/]
+            cloudbridge - слой абстракции над множеством облачных провайдеров
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+[http://pypi.python.org/pypi/Signaller/]
+            Signaller - реализация механизма "сигналы-слоты" с поддержкой asyncio
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+from signaller import Signal
+
+logging.basicConfig(level=logging.DEBUG)
+
+def slot(arg):
+    print('slot:', arg)
+
+# Creating signals (you can set signal name, but it is not required,
+# signals can be anonymous):
+sig_test = Signal('sig_test')
+
+# Connecting signals to slots (uses weak references by default,
+# but you can force strong references by specifying weak=False):
+sig_test.connect(slot)
+sig_test.connect(lambda arg: print('slot_lambda:', arg), weak=False)
+
+# You can also use decorators for connecting signals to slots:
+@sig_test.connect
+def slot2(arg):
+    print('slot2:', arg)
+
+# And weak=False can be specified when using decorators too:
+@sig_test.connect(weak=False)
+def slot3(arg):
+    print('slot3:', arg)
+
+# Slots are automatically disconnected from signals
+# when using weak references:
+del slot2
+
+# Or you can disconnect slots manually:
+sig_test.disconnect(slot3)
+
+# Emitting signals (you can send positional and keyword
+# arguments to connected slots):
+sig_test.emit('Hello world!')
+
+
+
+from signaller import Signal
+
+logging.basicConfig(level=logging.DEBUG)
+
+def slot(arg):
+    print('slot:', arg)
+
+# Creating signals (you can set signal name, but it is not required,
+# signals can be anonymous):
+sig_test = Signal('sig_test')
+
+# Connecting signals to slots (uses weak references by default,
+# but you can force strong references by specifying weak=False):
+sig_test.connect(slot)
+sig_test.connect(lambda arg: print('slot_lambda:', arg), weak=False)
+
+# You can also use decorators for connecting signals to slots:
+@sig_test.connect
+def slot2(arg):
+    print('slot2:', arg)
+
+# And weak=False can be specified when using decorators too:
+@sig_test.connect(weak=False)
+def slot3(arg):
+    print('slot3:', arg)
+
+# Slots are automatically disconnected from signals
+# when using weak references:
+del slot2
+
+# Or you can disconnect slots manually:
+sig_test.disconnect(slot3)
+
+# Emitting signals (you can send positional and keyword
+# arguments to connected slots):
+sig_test.emit('Hello world!')
+
+
+[http://pypi.python.org/pypi/pontoon/]
+            pontoon - CLI для Digital Ocean 
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+[http://pypi.python.org/pypi/mattermost_bot/]
+            mattermost_bot - простой бот для MatterMost 
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+[http://pypi.python.org/pypi/autoreq/]
+            autoreq - утилита автоматического форматирования requirments файлов по PEP 8
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+[http://github.com/LifeForm-Labs/lobotomy]
+            lobotomy - Android Reverse Engineering Framework &amp; Toolkit 
+        
+
+[http://pypi.python.org/pypi/linkchecker-tryer/]
+            linkchecker-tryer - утилита перепроверки битых ссылок на сайте с помощью linkchecker 
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+linkchecker - позволяет проверить сайт на битые ссылки
+
+
+
+linkchecker - позволяет проверить сайт на битые ссылки
+
+[http://github.com/jocicmarko/kaggle-dsb2-keras]
+            kaggle-dsb2-keras - туториал использования Keras-библиотеки для Kaggle 2nd Annual Data Science Bowl 
+        
+
+Репозиторий содержит тестовый набор данных, модели, набор необходимых библиотек
+
+
+
+
+Репозиторий содержит тестовый набор данных, модели, набор необходимых библиотек
+
+[http://github.com/joowani/dtags]
+            dtags - утилита для сохранения путей до git репозиториев в виде тегов
+        
+
+~$ tag ~/frontend @frontend
+~$ tag ~/backend @backend
+~$ tag ~/frontend ~/backend @work
+~$ tag ~/db @vm
+~$ tag ~/web @vm
+
+# Or equivalently
+~$ tag ~/frontend @frontend @work ~/backend @backend @work ~/db ~/web @vm
+
+# All tag names must begin with the @ symbol
+# Execute 'git fetch origin' in all directories tagged @project
+~$ run @project git fetch origin
+
+# Execute 'git status -sb' in all directories tagged @frontend and @backend
+~$ run @frontend @backend git status -sb
+
+# Execute 'vagrant status' in all directories tagged @vms
+~$ run @vms vagrant status
+
+# Directory paths can be specified along with tags
+~$ run @backend ~/scripts ~/redis ls -la
+
+# The command can be executed in parallel as long as it doesn't wait for input
+~$ run -p @backend 'sleep 5 &amp;&amp; echo done'
+~$ run -p @project git pull
+~$ run -p @vms vagrant up
+
+
+~$ tag ~/frontend @frontend
+~$ tag ~/backend @backend
+~$ tag ~/frontend ~/backend @work
+~$ tag ~/db @vm
+~$ tag ~/web @vm
+
+# Or equivalently
+~$ tag ~/frontend @frontend @work ~/backend @backend @work ~/db ~/web @vm
+
+# All tag names must begin with the @ symbol
+
+# Execute 'git fetch origin' in all directories tagged @project
+~$ run @project git fetch origin
+
+# Execute 'git status -sb' in all directories tagged @frontend and @backend
+~$ run @frontend @backend git status -sb
+
+# Execute 'vagrant status' in all directories tagged @vms
+~$ run @vms vagrant status
+
+# Directory paths can be specified along with tags
+~$ run @backend ~/scripts ~/redis ls -la
+
+# The command can be executed in parallel as long as it doesn't wait for input
+~$ run -p @backend 'sleep 5 &amp;&amp; echo done'
+~$ run -p @project git pull
+~$ run -p @vms vagrant up
+
+[http://github.com/gragas/simpletcp]
+            simpletcp - небольшой не-блокирующий TCP сервер на Python3
+        
+
+В этом репозитории вы найдете пример TCP сервера на Python. Код изобилует комментариями
+
+
+
+
+В этом репозитории вы найдете пример TCP сервера на Python. Код изобилует комментариями
+
+
+[http://pypi.python.org/pypi/pytest_click/]
+            pytest_click - Py.test плагин для модуля Click (модуль для создания CLI)
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+import click
+
+
+def test_cli(cli_runner):
+
+    @click.command()
+    @click.argument('name')
+    def hello(name):
+        click.echo('Hello %s!' % name)
+
+    result = cli_runner.invoke(hello, ['Peter'])
+    assert result.exit_code == 0
+    assert result.output == 'Hello Peter!\n'
+
+
+import click
+
+
+def test_cli(cli_runner):
+
+    @click.command()
+    @click.argument('name')
+    def hello(name):
+        click.echo('Hello %s!' % name)
+
+    result = cli_runner.invoke(hello, ['Peter'])
+    assert result.exit_code == 0
+    assert result.output == 'Hello Peter!\n'
+
+[http://github.com/DiSiqueira/DSDownload]
+            DSDownload - утилита для очень быстрого скачивания файлов
+        
+
+[http://github.com/interrogator/corpkit]
+            corpkit - Инструментарий для корпусной лингвистики
+        
+
+[http://github.com/PyCQA/pydocstyle]
+            pydocstyle - скрипт проверки PEP 257 в коде (проверяет стиль форматирования docstring)
+        
+
+$ pep257 test.py
+test.py:18 in private nested class `meta`:
+        D101: Docstring missing
+test.py:22 in public method `method`:
+        D102: Docstring missing
+...
+
+
+
+$ pep257 test.py
+test.py:18 in private nested class `meta`:
+        D101: Docstring missing
+test.py:22 in public method `method`:
+        D102: Docstring missing
+...
+
+
+[http://pypi.python.org/pypi/abraxas/]
+            abraxas - генератор и хранилище паролей
+        
+
+[https://pypi.python.org/pypi?:action=browse&amp;c=533&amp;show=all]
+                py3k
+            
+
+РЕЛИЗЫ
+
+[https://allmychanges.com/p/python/django-htmlmin/#0.9.0]
+            django-htmlmin - 0.9.0
+        
+
+[http://allmychanges.com/]
+                allmychanges.com
+            
+Минификатор HTML для уменьшения веса страницы, повышения быстроты загрузки сайта и уменьшение трафика.
+Минификатор полноценно поддерживает HTML 5, поддерживается работа из консоли для минификации статических сайтов. Изменения описаны по ссылке [https://allmychanges.com/p/python/django-htmlmin/#0.9.0]https://allmychanges.com/p/python/django-htmlmin/#0.9.0. Скачать можно по ссылке: [https://allmychanges.com/p/python/django-htmlmin/#0.9.0]https://pypi.python.org/pypi/django-htmlmin/
+
+
+[https://allmychanges.com/p/python/django-htmlmin/#0.9.0]https://allmychanges.com/p/python/django-htmlmin/#0.9.0
+
+[https://pypi.python.org/pypi/django-htmlmin/]https://pypi.python.org/pypi/django-htmlmin/
+
+[https://allmychanges.com/p/python/virtualenv/#14.0.3]
+            virtualenv  - 14.0.3
+        
+
+[http://allmychanges.com/]
+                allmychanges.com
+            
+Инструмент создания виртуального рабочего окружения. Изменения описаны по ссылке [https://allmychanges.com/p/python/virtualenv/#14.0.3]https://allmychanges.com/p/python/virtualenv/#14.0.3. Скачать можно по ссылке: [https://allmychanges.com/p/python/virtualenv/#14.0.3]http://pypi.python.org/pypi/virtualenv/
+
+
+[https://allmychanges.com/p/python/virtualenv/#14.0.3]https://allmychanges.com/p/python/virtualenv/#14.0.3
+
+[http://pypi.python.org/pypi/virtualenv/]http://pypi.python.org/pypi/virtualenv/
+[http://docs.pylonsproject.org/projects/pyramid/en/1.6-branch/whatsnew-1.6.html]
+            Pyramid 1.6
+        
+
+Вышла новая версия веб фреймворка Pyramid. Из особенностей можно отметить поддержку Cache busting.
+
+
+
+
+Вышла новая версия веб фреймворка Pyramid. Из особенностей можно отметить поддержку Cache busting.
+
+
+[http://disqus.com/?ref_noscript]comments powered by Disqus.
+[http://disqus.com]comments powered by Disqus
